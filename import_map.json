@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "lodash": "npm:lodash@^4.17",
+    "fmt/": "https://deno.land/std@0.182.0/fmt/",
+    "io": "https://deno.land/std/io/mod.ts",
+    "openai": "npm:openai@^3.2.1",
+    "dotenv": "https://deno.land/std@0.182.0/dotenv/mod.ts",
+    "@src/": "./src/",
+    "./": "./"
+  }
+}

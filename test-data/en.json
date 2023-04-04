@@ -1,0 +1,6 @@
+{
+  "HELLO": "Hello I'm a string",
+  "NESTED": {
+    "TITLE": "I'm a nested string"
+  }
+}

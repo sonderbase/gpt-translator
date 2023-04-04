@@ -1,0 +1,86 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/std@0.182.0/collections/filter_values.ts": "5b9feaf17b9a6e5ffccdd36cf6f38fa4ffa94cff2602d381c2ad0c2a97929652",
+    "https://deno.land/std@0.182.0/collections/without_all.ts": "a89f5da0b5830defed4f59666e188df411d8fece35a5f6ca69be6ca71a95c185",
+    "https://deno.land/std@0.182.0/dotenv/mod.ts": "8dcbc8a40b896a0bf094582aaeadbfc76d3528872faf2efc0302beb1d2f6afd0",
+    "https://deno.land/std@0.182.0/fmt/colors.ts": "d67e3cd9f472535241a8e410d33423980bec45047e343577554d3356e1f0ef4e",
+    "https://esm.sh/lodash@4.17.21": "c22833f9027afe9f01c369cc4b329cf8cda98327de0d96504ac05a2352be722a",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/array.d.ts": "458111fc89d11d2151277c822dfdc1a28fa5b6b2493cf942e37d4cd0a6ee5f22",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/collection.d.ts": "d70c026dd2eeaa974f430ea229230a1897fdb897dc74659deebe2afd4feeb08f",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/common.d.ts": "1171e4dfda53f093511e29b1f993a21fca24925055640cacc94226eefb7bb062",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/date.d.ts": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/function.d.ts": "febf0b2de54781102b00f61653b21377390a048fbf5262718c91860d11ff34a6",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/lang.d.ts": "98f9d826db9cd99d27a01a59ee5f22863df00ccf1aaf43e1d7db80ebf716f7c3",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/math.d.ts": "0aaef8cded245bf5036a7a40b65622dd6c4da71f7a35343112edbe112b348a1e",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/number.d.ts": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/object.d.ts": "dcd91d3b697cb650b95db5471189b99815af5db2a1cd28760f91e0b12ede8ed5",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/seq.d.ts": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/string.d.ts": "3cf0d343c2276842a5b617f22ba82af6322c7cfe8bb52238ffc0c491a3c21019",
+    "https://esm.sh/v113/@types/lodash@4.14.192/common/util.d.ts": "df996e25faa505f85aeb294d15ebe61b399cf1d1e49959cdfaf2cc0815c203f9",
+    "https://esm.sh/v113/@types/lodash@4.14.192/index.d.ts": "f2eff8704452659641164876c1ef0df4174659ce7311b0665798ea3f556fa9ad",
+    "https://esm.sh/v113/@types/lodash@4.14.192/index~.d.ts": "f2eff8704452659641164876c1ef0df4174659ce7311b0665798ea3f556fa9ad",
+    "https://esm.sh/v113/lodash@4.17.21/deno/lodash.mjs": "a3c9a512bf51625ce4385b75b5be2ed9dd78290bbc0b28a3bb9fb2b918cd45e3"
+  },
+  "npm": {
+    "specifiers": {
+      "lodash@^4.17": "lodash@4.17.21",
+      "openai@^3.2.1": "openai@3.2.1"
+    },
+    "packages": {
+      "asynckit@0.4.0": {
+        "integrity": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==",
+        "dependencies": {}
+      },
+      "axios@0.26.1": {
+        "integrity": "sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==",
+        "dependencies": {
+          "follow-redirects": "follow-redirects@1.15.2"
+        }
+      },
+      "combined-stream@1.0.8": {
+        "integrity": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+        "dependencies": {
+          "delayed-stream": "delayed-stream@1.0.0"
+        }
+      },
+      "delayed-stream@1.0.0": {
+        "integrity": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==",
+        "dependencies": {}
+      },
+      "follow-redirects@1.15.2": {
+        "integrity": "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==",
+        "dependencies": {}
+      },
+      "form-data@4.0.0": {
+        "integrity": "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==",
+        "dependencies": {
+          "asynckit": "asynckit@0.4.0",
+          "combined-stream": "combined-stream@1.0.8",
+          "mime-types": "mime-types@2.1.35"
+        }
+      },
+      "lodash@4.17.21": {
+        "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "dependencies": {}
+      },
+      "mime-db@1.52.0": {
+        "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+        "dependencies": {}
+      },
+      "mime-types@2.1.35": {
+        "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+        "dependencies": {
+          "mime-db": "mime-db@1.52.0"
+        }
+      },
+      "openai@3.2.1": {
+        "integrity": "sha512-762C9BNlJPbjjlWZi4WYK9iM2tAVAv0uUp1UmI34vb0CN5T2mjB/qM6RYBmNKMh/dN9fC+bxqPwWJZUTWW052A==",
+        "dependencies": {
+          "axios": "axios@0.26.1",
+          "form-data": "form-data@4.0.0"
+        }
+      }
+    }
+  }
+}
