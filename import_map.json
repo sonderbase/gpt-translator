@@ -3,8 +3,11 @@
     "lodash": "npm:lodash@^4.17",
     "fmt/": "https://deno.land/std@0.182.0/fmt/",
     "io": "https://deno.land/std/io/mod.ts",
+    "flags": "https://deno.land/std@0.182.0/flags/mod.ts",
+    "log": "https://deno.land/std@0.182.0/log/mod.ts",
     "openai": "npm:openai@^3.2.1",
     "dotenv": "https://deno.land/std@0.182.0/dotenv/mod.ts",
+    "iso-639-1": "npm:iso-639-1",
     "@src/": "./src/",
     "./": "./"
   }

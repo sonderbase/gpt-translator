@@ -1,6 +1,0 @@
-{
-  "HELLO": "Hola, soy una cadena",
-  "NESTED": {
-    "TITLE": "Soy una cadena anidada"
-  }
-}

@@ -1,10 +1,20 @@
 {
   "version": "2",
   "remote": {
+    "https://deno.land/std@0.182.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
+    "https://deno.land/std@0.182.0/bytes/copy.ts": "939d89e302a9761dcf1d9c937c7711174ed74c59eef40a1e4569a05c9de88219",
     "https://deno.land/std@0.182.0/collections/filter_values.ts": "5b9feaf17b9a6e5ffccdd36cf6f38fa4ffa94cff2602d381c2ad0c2a97929652",
     "https://deno.land/std@0.182.0/collections/without_all.ts": "a89f5da0b5830defed4f59666e188df411d8fece35a5f6ca69be6ca71a95c185",
     "https://deno.land/std@0.182.0/dotenv/mod.ts": "8dcbc8a40b896a0bf094582aaeadbfc76d3528872faf2efc0302beb1d2f6afd0",
+    "https://deno.land/std@0.182.0/flags/mod.ts": "4d829c5bd1d657799cdeb487c6e418960efc6f4d8ce6cadc38a54b9ce266160a",
     "https://deno.land/std@0.182.0/fmt/colors.ts": "d67e3cd9f472535241a8e410d33423980bec45047e343577554d3356e1f0ef4e",
+    "https://deno.land/std@0.182.0/fs/exists.ts": "29c26bca8584a22876be7cb8844f1b6c8fc35e9af514576b78f5c6884d7ed02d",
+    "https://deno.land/std@0.182.0/io/buf_writer.ts": "48c33c8f00b61dcbc7958706741cec8e59810bd307bc6a326cbd474fe8346dfd",
+    "https://deno.land/std@0.182.0/log/handlers.ts": "38871ecbfa67b0d39dc3384210439ac9a13cba6118b912236f9011b5989b9a4d",
+    "https://deno.land/std@0.182.0/log/levels.ts": "6309147664e9e008cd6671610f2505c4c95f181f6bae4816a84b33e0aec66859",
+    "https://deno.land/std@0.182.0/log/logger.ts": "257ceb47e3f5f872068073de9809b015a7400e8d86dd40563c1d80169e578f71",
+    "https://deno.land/std@0.182.0/log/mod.ts": "36d156ad18de3f1806c6ddafa4965129be99ccafc27f1813de528d65b6c528bf",
+    "https://deno.land/std@0.182.0/types.d.ts": "dbaeb2c4d7c526db9828fc8df89d8aecf53b9ced72e0c4568f97ddd8cda616a4",
     "https://esm.sh/lodash@4.17.21": "c22833f9027afe9f01c369cc4b329cf8cda98327de0d96504ac05a2352be722a",
     "https://esm.sh/v113/@types/lodash@4.14.192/common/array.d.ts": "458111fc89d11d2151277c822dfdc1a28fa5b6b2493cf942e37d4cd0a6ee5f22",
     "https://esm.sh/v113/@types/lodash@4.14.192/common/collection.d.ts": "d70c026dd2eeaa974f430ea229230a1897fdb897dc74659deebe2afd4feeb08f",
@@ -24,6 +34,7 @@
   },
   "npm": {
     "specifiers": {
+      "iso-639-1": "iso-639-1@2.1.15",
       "lodash@^4.17": "lodash@4.17.21",
       "openai@^3.2.1": "openai@3.2.1"
     },
@@ -59,6 +70,10 @@
           "combined-stream": "combined-stream@1.0.8",
           "mime-types": "mime-types@2.1.35"
         }
+      },
+      "iso-639-1@2.1.15": {
+        "integrity": "sha512-7c7mBznZu2ktfvyT582E2msM+Udc1EjOyhVRE/0ZsjD9LBtWSm23h3PtiRh2a35XoUsTQQjJXaJzuLjXsOdFDg==",
+        "dependencies": {}
       },
       "lodash@4.17.21": {
         "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
