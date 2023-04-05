@@ -15,16 +15,10 @@ Before running this tool, we recommend you install the following dependencies:
    `git clone https://github.com/sonderbase/gpt-translator.git`
 2. Navigate to the project directory.
    `cd gpt-translator`
-3. Create a .env file and add your OpenAI API credentials.
-
-```
-OPENAI_API_KEY=<api-key>
-OPENAI_ORGANIZATION=<organization-id>
-OPENAI_MODEL=<gpt-model> // gpt-3.5-turbo
-```
-
-4. Run the CLI.
-   `deno run --allow-read --allow-env --allow-net --allow-write src/mod.ts --input=<path-to-input-file> --output=<path-to-output-file> --lang=<output-language>`
+3. Run the CLI.
+   ```
+   OPENAI_ORGANIZATION=<org-id> OPENAI_API_KEY=<openai-api-key> OPENAI_MODEL=gpt-3.5-turbo deno run --allow-read --allow-write --allow-env --allow-net=api.openai.com src/mod.ts --input=<path-to-input-file> --output=<path-to-output-file> --lang=<output-language>
+   ```
 
 ## Usage
 
@@ -36,7 +30,10 @@ The CLI Translation Tool takes in the following arguments:
 
 Here's an example command to translate text from English to Spanish:
 
-```deno run --allow-read --allow-env --allow-net --allow-write src/mod.ts --input=./test-data/en.json --output=./test-data/es.json --lang=es```
+```
+OPENAI_ORGANIZATION=<org-id> OPENAI_API_KEY=<openai-api-key> OPENAI_MODEL=gpt-3.5-turbo deno run --allow-read --allow-write --allow-env --allow-net=api.openai.com  src/mod.ts --input=./test-data/en.json --output=./test-data/es.json --lang=es
+```
 
 ### License
-  This project is licensed under the MIT License. Have fun experimenting with the CLI Translation Tool!
+
+This project is licensed under the MIT License. Have fun experimenting with the CLI Translation Tool!

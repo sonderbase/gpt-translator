@@ -1,3 +1,7 @@
 {
-  "importMap": "import_map.json"
+  "importMap": "import_map.json",
+  "tasks": {
+    "main": "deno run --allow-read --allow-write --allow-env --allow-net=api.openai.com src/mod.ts --input=./test-data/en.json --output=./test-data/ms.json --lang=ms",
+    "make-linux": "deno compile --config deno.json --lock=deno.lock --target x86_64-unknown-linux-gnu --output bin/program-$VERSION --allow-env=ENV --allow-read --allow-write --allow-net=bimmercat.com src/mod.ts"
+  }
 }

@@ -1,11 +1,13 @@
 /**
  * Takes a path to a file and returns the contents of the file as a string. If the file is empty, it returns null.
  */
-export const readInputFile = (path: string): Promise<string> => {
+export const readInputFile = (path: string): Promise<string | null> => {
   return new Promise((resolve, reject) => {
     Deno.readTextFile(path)
       .then((result) => {
-        resolve(result ? JSON.parse(JSON.stringify(result)) : null);
+        const jsonObject = JSON.parse(result);
+        const minifiedJson = JSON.stringify(jsonObject, null, 0);
+        resolve(result ? minifiedJson : null);
       })
       .catch(reject);
   });

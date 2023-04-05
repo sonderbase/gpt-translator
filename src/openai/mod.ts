@@ -1,20 +1,16 @@
 import { Configuration, OpenAIApi } from "openai";
-import { load } from "dotenv";
-
-// load env
-const env = await load();
 
 // OpenAI Config
 const configuration = new Configuration({
-  organization: env["OPENAI_ORGANIZATION"],
-  apiKey: env["OPENAI_API_KEY"],
+  organization: Deno.env.get("OPENAI_ORGANIZATION"),
+  apiKey: Deno.env.get("OPENAI_API_KEY"),
 });
 
 export const translateCompletion = async (text: string, language: string) => {
   try {
     const openai = new OpenAIApi(configuration);
     const response = await openai.createChatCompletion({
-      model: env["OPENAI_MODEL"],
+      model: Deno.env.get("OPENAI_MODEL") || "gpt-3.5-turbo",
       messages: [
         {
           role: "assistant",

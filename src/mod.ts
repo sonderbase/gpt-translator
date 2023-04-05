@@ -38,9 +38,12 @@ if (!iso639.validate(flags.lang)) {
 
 try {
   const result = await readInputFile(flags.input);
-
-  log.debug(JSON.stringify(result));
-  log.info("Translating file...");
+  if (!result) {
+    log.error("Input file is empty");
+    Deno.exit();
+  }
+  
+  log.info(`Translating file into ${flags.lang} ...`);
   const translateResult = await translateCompletion(result, flags.lang);
 
   log.info(
