@@ -14,7 +14,7 @@ export const translateCompletion = async (text: string, language: string) => {
       messages: [
         {
           role: "assistant",
-          content: `Translate a JSON into ${language}, Please translate only the object values: ${text}`,
+          content: `Translate a JSON into iso639-1: ${language}, Please translate only the object values: ${text}`,
         },
       ],
       temperature: 0, // set 0 here to get the best result
